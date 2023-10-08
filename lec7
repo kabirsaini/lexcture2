@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+int password;
+cout<<"ENTER password";
+cin>>password;
+while(password<9999){
+cout<<"The password doesn't meet the requirement";
+cin>>password;
+}
+cout<<"Correct password entered<<endl;
+
+while(1)
+{
+cout<<"chocolates"<<endl;
+}
+return 0;
+}
