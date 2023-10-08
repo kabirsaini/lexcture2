@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+int input;
+int i=100;
+for(i=0;i<101;i++){
+cin>>input
+if(input==65){
+cout<<"Congrats you have guessed it right";
+break;
+}
+return 0;
+}
