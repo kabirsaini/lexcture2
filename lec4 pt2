@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+float a,b;
+cout<< "Enter 2 float number<<endl;
+cin>>a>>b;
+if(a>0.01 || b>a){
+cout<<"The condition of if statement is true";
+}
+else{
+cout<<"the condition is false";
+}
+
+int a,b,c;
+cout<<"Give three integers as input a,b,c"<<endl;
+cin>>a>>b>>c;
+if(a>b && c>d){
+cout<<"haha";
+}
+else if(a>b && c<d){
+cout<<"hehe";
+}
+else(a<b && c>d){
+cout<<"huhu";
+}
+switch(a)
+{
+case 1:cout<<""the value of a is 1";
+break;
+case 2:cout<<""the value of a is 2";
+break;
+case 3:cout<<""the value of a is 3";
+break;
+case 4:cout<<""the value of a is 4";
+break;
+case 5:cout<<""the value of a is 5";
+break;
+default :cout<<"always printed";
+break;
+}
+return 0;
+}
